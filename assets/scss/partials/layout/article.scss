@@ -93,6 +93,7 @@
     flex-direction: column;
     color: var(--card-text-color-main);
     overflow: hidden;
+    opacity: 0.85;
 
     ::-webkit-scrollbar-thumb {
         background-color: var(--card-separator-color);
