@@ -1,0 +1,12 @@
+<div class="card card-color-{{ .Get 0 }}">
+    <div class="card-header">
+        {{ if len .Params | eq 2 }}
+        {{ .Get 1 }}
+        {{ else }}
+        Note
+        {{ end }}
+    </div>
+    <div class="card-body">
+        {{ .Inner }}
+    </div>
+</div>

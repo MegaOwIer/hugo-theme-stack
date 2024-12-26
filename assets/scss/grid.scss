@@ -27,13 +27,13 @@
         @include respond(lg) {
             max-width: 1280px;
             --left-sidebar-max-width: 20%;
-            --right-sidebar-max-width: 30%;
+            --right-sidebar-max-width: 27%;
         }
 
         @include respond(xl) {
             max-width: 1536px;
             --left-sidebar-max-width: 15%;
-            --right-sidebar-max-width: 25%;
+            --right-sidebar-max-width: 23%;
         }
     }
 
@@ -82,6 +82,7 @@ main.main {
     display: flex;
     flex-direction: column;
     gap: var(--section-separation);
+    opacity: 0.85;
 
     @include respond(md) {
         padding-top: var(--main-top-padding);
